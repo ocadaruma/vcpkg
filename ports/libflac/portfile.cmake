@@ -29,6 +29,7 @@ vcpkg_cmake_configure(
         -DBUILD_DOCS=OFF
         -DBUILD_TESTING=OFF
         -DINSTALL_MANPAGES=OFF
+        -DWITH_STACK_PROTECTOR=OFF
 )
 
 vcpkg_cmake_install()
